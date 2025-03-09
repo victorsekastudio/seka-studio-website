@@ -27,8 +27,7 @@ const Index = () => {
                   <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-pink-500 via-yellow-500 via-orange-500 to-blue-500">Seka Studio</span> is coming soon
                 </h1>
                 <p className="text-lg md:text-xl text-slate-600">
-                  Transforming businesses across<br />
-                  Sub-Saharan Africa with no-code solutions
+                  On the mission to streamline and accelerate digital transformation for businesses in Sub-Saharan Africa.
                 </p>
               </div>
             </div>
