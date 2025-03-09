@@ -40,13 +40,14 @@ const Index = () => {
       <section className="flex-1 flex flex-col justify-center items-center px-4 md:px-6 py-12 bg-[#ECF4F3] text-slate-900">
         <div className="container max-w-5xl mx-auto">
           <div className="flex flex-col items-center text-center">
-            {/* Logo */}
-            <div className="mb-8">
+            {/* Logo and Brand Name */}
+            <div className="mb-8 flex items-center gap-3">
               <img 
-                src="/lovable-uploads/7b5adc01-2bf9-41e0-8eb2-3cd3066a6cc1.png" 
+                src="/lovable-uploads/391663c5-8e61-47b2-888e-e16676c6d6b7.png" 
                 alt="Seka Studio Logo" 
-                className="h-24 md:h-32"
+                className="h-16 md:h-20"
               />
+              <span className="text-2xl md:text-3xl font-skie text-slate-800">seka.studio</span>
             </div>
             
             <div className="space-y-6 max-w-2xl mx-auto">
