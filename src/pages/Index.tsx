@@ -1,39 +1,10 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import { toast } from "@/hooks/use-toast";
 import { Mail, Linkedin, Twitter, Github } from "lucide-react";
 
 const Index = () => {
-  const [email, setEmail] = useState("");
-  const [isSubmitting, setIsSubmitting] = useState(false);
-
-  const handleSubscribe = (e: React.FormEvent) => {
-    e.preventDefault();
-    
-    if (!email) {
-      toast({
-        title: "Error",
-        description: "Please enter your email address",
-        variant: "destructive",
-      });
-      return;
-    }
-
-    setIsSubmitting(true);
-    
-    // Simulate API call
-    setTimeout(() => {
-      toast({
-        title: "Success!",
-        description: "Thank you for subscribing. We'll be in touch soon!",
-      });
-      setEmail("");
-      setIsSubmitting(false);
-    }, 1000);
-  };
-
   return (
     <div className="min-h-screen flex flex-col bg-white font-skie">
       {/* Hero Section */}
@@ -60,19 +31,6 @@ const Index = () => {
                   Sub-Saharan Africa with no-code solutions
                 </p>
               </div>
-              
-              <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-2 max-w-md mx-auto">
-                <Input
-                  type="email"
-                  placeholder="Enter your email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  className="border-slate-300 text-slate-900"
-                />
-                <Button type="submit" disabled={isSubmitting} className="bg-yellow-500 hover:bg-yellow-600 text-white">
-                  {isSubmitting ? "Subscribing..." : "Get Updates"}
-                </Button>
-              </form>
             </div>
           </div>
         </div>
