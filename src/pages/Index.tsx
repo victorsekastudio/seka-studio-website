@@ -35,9 +35,9 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#ECF4F3] font-skie">
+    <div className="min-h-screen flex flex-col bg-white font-skie">
       {/* Hero Section */}
-      <section className="flex-1 flex flex-col justify-center items-center px-4 md:px-6 py-12 bg-[#ECF4F3] text-slate-900">
+      <section className="flex-1 flex flex-col justify-center items-center px-4 md:px-6 py-12 bg-white text-slate-900">
         <div className="container max-w-5xl mx-auto">
           <div className="flex flex-col items-center text-center">
             {/* Logo and Brand Name */}
@@ -79,7 +79,7 @@ const Index = () => {
       </section>
       
       {/* Footer */}
-      <footer className="bg-[#ECF4F3] text-slate-600 py-6 border-t border-slate-200">
+      <footer className="bg-white text-slate-600 py-6 border-t border-slate-200">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p>© 2024 Seka Studio. All rights reserved.</p>
