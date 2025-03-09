@@ -1,8 +1,7 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { toast } from "@/hooks/use-toast";
-import { Mail, Linkedin, Twitter, Github } from "lucide-react";
+import { Mail, Github } from "lucide-react";
 
 const Index = () => {
   return (
@@ -43,12 +42,6 @@ const Index = () => {
             <div className="flex items-center space-x-4">
               <a href="mailto:v.isingizwe@seka.studio" className="hover:text-yellow-500 transition-colors">
                 <Mail size={20} />
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">
-                <Linkedin size={20} />
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">
-                <Twitter size={20} />
               </a>
               <a href="https://github.com/sekastudio" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">
                 <Github size={20} />
