@@ -50,7 +50,7 @@ const Index = () => {
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">
                 <Twitter size={20} />
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">
+              <a href="https://github.com/sekastudio" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
