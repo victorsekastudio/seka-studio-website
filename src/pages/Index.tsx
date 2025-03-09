@@ -35,9 +35,9 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#2596be]">
+    <div className="min-h-screen flex flex-col bg-[#ECF4F3]">
       {/* Hero Section */}
-      <section className="flex-1 flex flex-col justify-center items-center px-4 md:px-6 py-12 bg-[#2596be] text-white">
+      <section className="flex-1 flex flex-col justify-center items-center px-4 md:px-6 py-12 bg-[#ECF4F3] text-slate-900">
         <div className="container max-w-5xl mx-auto">
           <div className="flex flex-col items-center text-center">
             {/* Logo */}
@@ -54,7 +54,7 @@ const Index = () => {
                 <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
                   <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-pink-500 via-yellow-500 via-orange-500 to-blue-500">Seka Studio</span> is coming soon
                 </h1>
-                <p className="text-xl md:text-2xl text-white">
+                <p className="text-xl md:text-2xl text-slate-600">
                   Transforming businesses across Sub-Saharan Africa with no-code solutions
                 </p>
               </div>
@@ -65,7 +65,7 @@ const Index = () => {
                   placeholder="Enter your email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="border-white/20 text-white bg-white/10 placeholder:text-white/70"
+                  className="border-slate-300 text-slate-900"
                 />
                 <Button type="submit" disabled={isSubmitting} className="bg-yellow-500 hover:bg-yellow-600 text-white">
                   {isSubmitting ? "Subscribing..." : "Get Updates"}
@@ -77,7 +77,7 @@ const Index = () => {
       </section>
       
       {/* Footer */}
-      <footer className="bg-[#2596be] text-white py-6 border-t border-white/20">
+      <footer className="bg-[#ECF4F3] text-slate-600 py-6 border-t border-slate-200">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p>© 2024 Seka Studio. All rights reserved.</p>
