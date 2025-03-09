@@ -54,8 +54,9 @@ const Index = () => {
                 <h1 className="text-3xl md:text-4xl font-normal tracking-tight">
                   <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 via-pink-500 via-yellow-500 via-orange-500 to-blue-500">Seka Studio</span> is coming soon
                 </h1>
-                <p className="text-xl md:text-2xl text-slate-600">
-                  Transforming businesses across Sub-Saharan Africa with no-code solutions
+                <p className="text-lg md:text-xl text-slate-600">
+                  Transforming businesses across<br />
+                  Sub-Saharan Africa with no-code solutions
                 </p>
               </div>
               
