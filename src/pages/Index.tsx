@@ -35,9 +35,9 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-white">
       {/* Hero Section */}
-      <section className="flex-1 flex flex-col justify-center items-center px-4 md:px-6 py-12 bg-gradient-to-br from-slate-900 to-slate-800 text-white">
+      <section className="flex-1 flex flex-col justify-center items-center px-4 md:px-6 py-12 bg-white text-slate-900">
         <div className="container max-w-5xl mx-auto">
           <div className="flex flex-col items-center text-center">
             {/* Logo */}
@@ -52,9 +52,9 @@ const Index = () => {
             <div className="space-y-6 max-w-2xl mx-auto">
               <div className="space-y-4">
                 <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-                  <span className="text-yellow-400">Seka Studio</span> is coming soon
+                  <span className="text-yellow-500">Seka Studio</span> is coming soon
                 </h1>
-                <p className="text-xl md:text-2xl text-slate-300">
+                <p className="text-xl md:text-2xl text-slate-600">
                   Transforming businesses across Sub-Saharan Africa with no-code solutions
                 </p>
               </div>
@@ -65,9 +65,9 @@ const Index = () => {
                   placeholder="Enter your email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="bg-slate-800 border-slate-700 text-white"
+                  className="border-slate-300 text-slate-900"
                 />
-                <Button type="submit" disabled={isSubmitting} className="bg-yellow-500 hover:bg-yellow-600">
+                <Button type="submit" disabled={isSubmitting} className="bg-yellow-500 hover:bg-yellow-600 text-white">
                   {isSubmitting ? "Subscribing..." : "Get Updates"}
                 </Button>
               </form>
@@ -77,21 +77,21 @@ const Index = () => {
       </section>
       
       {/* Footer */}
-      <footer className="bg-slate-950 text-slate-400 py-6">
+      <footer className="bg-white text-slate-600 py-6 border-t border-slate-200">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p>© 2024 Seka Studio. All rights reserved.</p>
             <div className="flex items-center space-x-4">
-              <a href="mailto:info@sekastudio.com" className="hover:text-white transition-colors">
+              <a href="mailto:info@sekastudio.com" className="hover:text-yellow-500 transition-colors">
                 <Mail size={20} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">
                 <Twitter size={20} />
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">
                 <Github size={20} />
               </a>
             </div>
