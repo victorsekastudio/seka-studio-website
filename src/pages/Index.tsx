@@ -41,7 +41,7 @@ const Index = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p>© 2024 Seka Studio. All rights reserved.</p>
             <div className="flex items-center space-x-4">
-              <a href="mailto:info@sekastudio.com" className="hover:text-yellow-500 transition-colors">
+              <a href="mailto:v.isingizwe@seka.studio" className="hover:text-yellow-500 transition-colors">
                 <Mail size={20} />
               </a>
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition-colors">
