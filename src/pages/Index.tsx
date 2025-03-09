@@ -35,7 +35,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#ECF4F3]">
+    <div className="min-h-screen flex flex-col bg-[#ECF4F3] font-skie">
       {/* Hero Section */}
       <section className="flex-1 flex flex-col justify-center items-center px-4 md:px-6 py-12 bg-[#ECF4F3] text-slate-900">
         <div className="container max-w-5xl mx-auto">
